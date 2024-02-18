@@ -2,6 +2,7 @@ from pyttsx3 import speak
 import datetime
 import speech_recognition as sr
 import json
+import subprocess
 
 def LoadMemory(FilePath: str) -> dict:
   with open(FilePath, 'r') as file:
