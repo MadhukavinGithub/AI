@@ -1,6 +1,10 @@
 {
-    "Name": "Jarvis",
-    "MyName": "Sir",
-    "speakable": "True",
-    "printable": "True"
+    "Details": [
+        {
+            "Name": "Jarvis",
+            "MyName": "Sir",
+            "speakable": "True",
+            "printable": "True"
+        }
+    ]
 }
