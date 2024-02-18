@@ -42,10 +42,10 @@ def takeCommand():
 
 def checkDetails(whatYouNeed: str):
     Memory: dict = LoadMemory('data.json')
-    Name = Memory["Details"][0]["Name"]
-    MyName = Memory["Details"][0]["MyName"]
-    speakable = Memory["Details"][0]["speakable"]
-    printable = Memory["Details"][0]["printable"]
+    Name = Memory["Name"]
+    MyName = Memory["MyName"]
+    speakable = Memory["speakable"]
+    printable = Memory["printable"]
     if whatYouNeed == "Name":
         return Name
     elif whatYouNeed == "MyName":
