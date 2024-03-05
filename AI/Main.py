@@ -1,6 +1,7 @@
 import Library
 
 AI = True
+Library.wishMe()
 while AI:
     Name = Library.checkDetails('Name')
     MyName = Library.checkDetails('MyName')
