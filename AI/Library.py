@@ -41,7 +41,7 @@ def takeCommand():
         return statement
 
 def checkDetails(whatYouNeed: str):
-    Memory: dict = LoadMemory('data.json')
+    Memory: dict = LoadMemory('./data.json')
     Name = Memory["Name"]
     MyName = Memory["MyName"]
     speakable = Memory["speakable"]
