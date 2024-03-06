@@ -15,7 +15,7 @@ while AI:
         print('Tell that what i need to change my name')
         Library.speak('Tell that what i need to change my name')
         NewName = Library.takeCommand()
-        data: dict = Library.LoadMemory('./data.json')
+        data: dict = Library.LoadMemory('data.json')
         data["Details"][0]["Name"].append(NewName)
         Library.save_memory('data.json', data)
     elif 'exit' in query:
